@@ -1,5 +1,5 @@
 # etch-a-sketch
-Etch-A-Sketch game for TOP
+Etch-A-Sketch game for [The Odin Project](theodinproject.com) curriculum
 
 Game created with HTML, CSS, Javascript
 

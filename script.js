@@ -77,10 +77,12 @@ function changeColor(e) {
 
 function getSize() {
     let size = userValue.value;
-    if (size < 0 || size > 99 || isNaN(size)) {
+    if (size < 0 || size > 100 || isNaN(size)) {
         promptText.textContent = "Make sure it's a number between 1 and 100!";
+        size = 16
     } else if (size == "") {
         promptText.textContent = "Enter a number"
+        size = 16
     } 
     return size;
 }
